@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333519A72591D58B00C54B6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333519A62591D58B00C54B6F /* AppDelegate.swift */; };
+		333519A92591D58B00C54B6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333519A82591D58B00C54B6F /* SceneDelegate.swift */; };
+		333519AB2591D58B00C54B6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333519AA2591D58B00C54B6F /* ViewController.swift */; };
+		333519AE2591D58B00C54B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333519AC2591D58B00C54B6F /* Main.storyboard */; };
+		333519B02591D58C00C54B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333519AF2591D58C00C54B6F /* Assets.xcassets */; };
+		333519B32591D58C00C54B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333519B12591D58C00C54B6F /* LaunchScreen.storyboard */; };
+		333519BE2591D58C00C54B6F /* SarahsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333519BD2591D58C00C54B6F /* SarahsAppTests.swift */; };
+		333519C92591D58C00C54B6F /* SarahsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333519C82591D58C00C54B6F /* SarahsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		333519BA2591D58C00C54B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3335199B2591D58B00C54B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333519A22591D58B00C54B6F;
+			remoteInfo = SarahsApp;
+		};
+		333519C52591D58C00C54B6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3335199B2591D58B00C54B6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333519A22591D58B00C54B6F;
+			remoteInfo = SarahsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333519A32591D58B00C54B6F /* SarahsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SarahsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333519A62591D58B00C54B6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		333519A82591D58B00C54B6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		333519AA2591D58B00C54B6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		333519AD2591D58B00C54B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333519AF2591D58C00C54B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333519B22591D58C00C54B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		333519B42591D58C00C54B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333519B92591D58C00C54B6F /* SarahsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarahsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333519BD2591D58C00C54B6F /* SarahsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahsAppTests.swift; sourceTree = "<group>"; };
+		333519BF2591D58C00C54B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333519C42591D58C00C54B6F /* SarahsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarahsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333519C82591D58C00C54B6F /* SarahsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarahsAppUITests.swift; sourceTree = "<group>"; };
+		333519CA2591D58C00C54B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333519A02591D58B00C54B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333519B62591D58C00C54B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333519C12591D58C00C54B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3335199A2591D58B00C54B6F = {
+			isa = PBXGroup;
+			children = (
+				333519A52591D58B00C54B6F /* SarahsApp */,
+				333519BC2591D58C00C54B6F /* SarahsAppTests */,
+				333519C72591D58C00C54B6F /* SarahsAppUITests */,
+				333519A42591D58B00C54B6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333519A42591D58B00C54B6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333519A32591D58B00C54B6F /* SarahsApp.app */,
+				333519B92591D58C00C54B6F /* SarahsAppTests.xctest */,
+				333519C42591D58C00C54B6F /* SarahsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333519A52591D58B00C54B6F /* SarahsApp */ = {
+			isa = PBXGroup;
+			children = (
+				333519A62591D58B00C54B6F /* AppDelegate.swift */,
+				333519A82591D58B00C54B6F /* SceneDelegate.swift */,
+				333519AA2591D58B00C54B6F /* ViewController.swift */,
+				333519AC2591D58B00C54B6F /* Main.storyboard */,
+				333519AF2591D58C00C54B6F /* Assets.xcassets */,
+				333519B12591D58C00C54B6F /* LaunchScreen.storyboard */,
+				333519B42591D58C00C54B6F /* Info.plist */,
+			);
+			path = SarahsApp;
+			sourceTree = "<group>";
+		};
+		333519BC2591D58C00C54B6F /* SarahsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				333519BD2591D58C00C54B6F /* SarahsAppTests.swift */,
+				333519BF2591D58C00C54B6F /* Info.plist */,
+			);
+			path = SarahsAppTests;
+			sourceTree = "<group>";
+		};
+		333519C72591D58C00C54B6F /* SarahsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				333519C82591D58C00C54B6F /* SarahsAppUITests.swift */,
+				333519CA2591D58C00C54B6F /* Info.plist */,
+			);
+			path = SarahsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333519A22591D58B00C54B6F /* SarahsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333519CD2591D58C00C54B6F /* Build configuration list for PBXNativeTarget "SarahsApp" */;
+			buildPhases = (
+				3335199F2591D58B00C54B6F /* Sources */,
+				333519A02591D58B00C54B6F /* Frameworks */,
+				333519A12591D58B00C54B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SarahsApp;
+			productName = SarahsApp;
+			productReference = 333519A32591D58B00C54B6F /* SarahsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333519B82591D58C00C54B6F /* SarahsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333519D02591D58C00C54B6F /* Build configuration list for PBXNativeTarget "SarahsAppTests" */;
+			buildPhases = (
+				333519B52591D58C00C54B6F /* Sources */,
+				333519B62591D58C00C54B6F /* Frameworks */,
+				333519B72591D58C00C54B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333519BB2591D58C00C54B6F /* PBXTargetDependency */,
+			);
+			name = SarahsAppTests;
+			productName = SarahsAppTests;
+			productReference = 333519B92591D58C00C54B6F /* SarahsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		333519C32591D58C00C54B6F /* SarahsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333519D32591D58C00C54B6F /* Build configuration list for PBXNativeTarget "SarahsAppUITests" */;
+			buildPhases = (
+				333519C02591D58C00C54B6F /* Sources */,
+				333519C12591D58C00C54B6F /* Frameworks */,
+				333519C22591D58C00C54B6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333519C62591D58C00C54B6F /* PBXTargetDependency */,
+			);
+			name = SarahsAppUITests;
+			productName = SarahsAppUITests;
+			productReference = 333519C42591D58C00C54B6F /* SarahsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3335199B2591D58B00C54B6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					333519A22591D58B00C54B6F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					333519B82591D58C00C54B6F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 333519A22591D58B00C54B6F;
+					};
+					333519C32591D58C00C54B6F = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 333519A22591D58B00C54B6F;
+					};
+				};
+			};
+			buildConfigurationList = 3335199E2591D58B00C54B6F /* Build configuration list for PBXProject "SarahsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3335199A2591D58B00C54B6F;
+			productRefGroup = 333519A42591D58B00C54B6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333519A22591D58B00C54B6F /* SarahsApp */,
+				333519B82591D58C00C54B6F /* SarahsAppTests */,
+				333519C32591D58C00C54B6F /* SarahsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333519A12591D58B00C54B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333519B32591D58C00C54B6F /* LaunchScreen.storyboard in Resources */,
+				333519B02591D58C00C54B6F /* Assets.xcassets in Resources */,
+				333519AE2591D58B00C54B6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333519B72591D58C00C54B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333519C22591D58C00C54B6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3335199F2591D58B00C54B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333519AB2591D58B00C54B6F /* ViewController.swift in Sources */,
+				333519A72591D58B00C54B6F /* AppDelegate.swift in Sources */,
+				333519A92591D58B00C54B6F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333519B52591D58C00C54B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333519BE2591D58C00C54B6F /* SarahsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333519C02591D58C00C54B6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333519C92591D58C00C54B6F /* SarahsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		333519BB2591D58C00C54B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333519A22591D58B00C54B6F /* SarahsApp */;
+			targetProxy = 333519BA2591D58C00C54B6F /* PBXContainerItemProxy */;
+		};
+		333519C62591D58C00C54B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333519A22591D58B00C54B6F /* SarahsApp */;
+			targetProxy = 333519C52591D58C00C54B6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		333519AC2591D58B00C54B6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333519AD2591D58B00C54B6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		333519B12591D58C00C54B6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				333519B22591D58C00C54B6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		333519CB2591D58C00C54B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333519CC2591D58C00C54B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333519CE2591D58C00C54B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65PP5AV236;
+				INFOPLIST_FILE = SarahsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hovey.SarahsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		333519CF2591D58C00C54B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65PP5AV236;
+				INFOPLIST_FILE = SarahsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hovey.SarahsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		333519D12591D58C00C54B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65PP5AV236;
+				INFOPLIST_FILE = SarahsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hovey.SarahsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SarahsApp.app/SarahsApp";
+			};
+			name = Debug;
+		};
+		333519D22591D58C00C54B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65PP5AV236;
+				INFOPLIST_FILE = SarahsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hovey.SarahsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SarahsApp.app/SarahsApp";
+			};
+			name = Release;
+		};
+		333519D42591D58C00C54B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65PP5AV236;
+				INFOPLIST_FILE = SarahsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hovey.SarahsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SarahsApp;
+			};
+			name = Debug;
+		};
+		333519D52591D58C00C54B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65PP5AV236;
+				INFOPLIST_FILE = SarahsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hovey.SarahsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SarahsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3335199E2591D58B00C54B6F /* Build configuration list for PBXProject "SarahsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333519CB2591D58C00C54B6F /* Debug */,
+				333519CC2591D58C00C54B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333519CD2591D58C00C54B6F /* Build configuration list for PBXNativeTarget "SarahsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333519CE2591D58C00C54B6F /* Debug */,
+				333519CF2591D58C00C54B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333519D02591D58C00C54B6F /* Build configuration list for PBXNativeTarget "SarahsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333519D12591D58C00C54B6F /* Debug */,
+				333519D22591D58C00C54B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333519D32591D58C00C54B6F /* Build configuration list for PBXNativeTarget "SarahsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333519D42591D58C00C54B6F /* Debug */,
+				333519D52591D58C00C54B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3335199B2591D58B00C54B6F /* Project object */;
+}
